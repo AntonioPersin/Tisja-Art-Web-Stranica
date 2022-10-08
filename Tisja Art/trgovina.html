@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Tisja Art">
+    <meta name="author" content="Antonio Peršin">
+    <title>Tisja Art</title>
+    <link href="css\mojCSS.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="content/fontawesome/css/all.css" rel="stylesheet">
+
+    <script>
+        window.onscroll = function() {myFunction()};
+		function openNav() {
+		  document.getElementById("myNav").style.display = "block";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.display = "none";
+		}
+
+		var elementToClick = document.querySelector(".toggler");
+		var elementToShow = document.querySelector(".element");
+
+		if(elementToClick){
+		  elementToClick.addEventListener("click",showElement)
+		}
+
+		function showElement(){
+		  elementToShow.classList.add("show");
+		}
+
+
+    </script>
+
+
+</head>
+<body>
+	<div class="wrapper">
+		<div id="navbar" class="navbar">
+			<div class="middle">
+				<a class="left" href="index.html"><img src="content/ikone/l4noww.png"></a>
+				<a class="left" href="index.html">TISJA ART</a>
+				<div class="begone">
+					<a href="ilustracije.html" class="nonpage right">ILUSTRACIJE</a>
+					<a href="knjige.html" class="nonpage right">KNJIGE</a>
+					<a href="trgovina.html" class="nonpage right">TRGOVINA</a>
+				</div>
+				<div id="hamburger">
+				<a onclick="openNav()">&#9776;</span></a>
+			</div>
+		  	</div>
+		</div>
+
+		<div id="myNav" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<div class="overlay-content">
+				<a class="down" href="ilustracije.html">ILUSTRACIJE</a>
+				<a class="down" href="knjige.html">KNJIGE</a>
+				<a class="down" href="trgovina.html">TRGOVINA</a>
+
+				<div class="infonav-mob">
+					<ul>
+		                <li><a href="https://www.facebook.com/tisja.art"><p><i class="fab fa-facebook-square"></i><p> Tisja Kljaković Art</p></a></li> 
+		                <li><a href="https://www.instagram.com/tisjakljakovicart"><p><i class="fab fa-instagram"></i><p> tisjakljakovicart</p></a></li> 
+		                <li><a href="mailto:onitisja@gmail.com"><p><i class="fas fa-envelope"></i><p> onitisja@gmail.com</p></a></li>
+		            </ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="nav">
+				<div class="navimg">
+				<a href="index.html"><img src="content/ikone/l4noww.png"></a>
+				</div>
+				<ul>
+	                	<li><a href="index.html" class="current-page"><p>TISJA ART</p></a></li>
+	                    <li><a href="ilustracije.html" class="nonpage"><li><p>ILUSTRACIJE</p></a></li>
+	                    <li><a href="knjige.html" class="nonpage"><li><p>KNJIGE</p></a></li>
+	                    <li><a href="trgovina.html" class="nonpage"><li><p>TRGOVINA</p></a></li>
+	            </ul>	
+        	</div>
+			<div class="main">
+				<div class="row1">
+					<div class="textr1">
+			
+					</div>
+					<div class="slikar1">
+						
+					</div>
+				</div>
+				<div class="row2">
+					<div class="slikar2">
+					
+					</div>
+					<div class="textr2">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottomnav">
+				<ul>
+	                <li><a href="https://www.facebook.com/tisja.art"><p><i class="fab fa-facebook-square"></i> Tisja Kljaković Art</p></a></li> 
+	                <li><a href="https://www.instagram.com/tisjakljakovicart"><p><i class="fab fa-instagram"></i> tisjakljakovicart</p></a></li> 
+	                <li><a href="mailto:onitisja@gmail.com"><p><i class="fas fa-envelope"></i> onitisja@gmail.com</p></a></li>
+	            </ul>
+			</div>
+	</div>
+</body>
+</html>

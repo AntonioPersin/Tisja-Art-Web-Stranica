@@ -1,0 +1,13 @@
+<link href="content/fontawesome/css/all.css" rel="stylesheet">
+
+facebook
+<i class="fab fa-facebook-square"></i>
+
+instagram
+<i class="fab fa-instagram"></i>
+
+email
+<i class="fas fa-envelope"></i>
+
+ham
+<i class="fas fa-bars"></i>
